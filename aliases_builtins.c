@@ -6,6 +6,7 @@ void print_aliases(aliases_t *alias);
 
 /**
  * shell_by_aliases - Builtin command that either prints all aliases, specific
+ *
  * aliases, or sets an alias.
  * @args: An array of arguments.
  * @front: A double pointer to the beginning of args.
