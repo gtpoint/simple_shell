@@ -19,7 +19,7 @@ void sig_handler(int sig)
 /**
  * exect - exects a command in a child process.
  * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
+ * @front: A pointer of pointer to the beginning of args.
  *
  * Return: If an error occurs - a corresponding error code.
  *         O/w - The exit value of the last exectd command.
