@@ -7,7 +7,7 @@ void help_exit(void);
 void help_help(void);
 
 /**
- * help_all - Displays all possible builtin shellby commands.
+ * help_all - Display all possible builtin shellby commands.
  */
 void help_all(void)
 {
