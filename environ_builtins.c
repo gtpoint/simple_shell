@@ -5,7 +5,7 @@ int shell_by_set_env(char **args, char __attribute__((__unused__)) **front);
 int shell_by_unset_env(char **args, char __attribute__((__unused__)) **front);
 
 /**
- * shell_by_env - Prints the current environment.
+ * shell_by_env - Print the current environment.
  * @args: An array of arguments passed to the shell.
  * @front: A double pointer to the beginning of args.
  *
