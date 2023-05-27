@@ -5,7 +5,7 @@ void assign_ptr(char **lineptr, size_t *n, char *buffer, size_t b);
 ssize_t _get_line(char **lineptr, size_t *n, FILE *stream);
 
 /**
- * _realloc - this function that Reallocates a memory
+ * _realloc - this function that Reallocate_memory
  *          block using malloc and free.
  * @ptr: A pointer to the memory previously allocated.
  * @old_size: The size in bytes of the allocated space for ptr.
