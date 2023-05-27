@@ -222,11 +222,11 @@ Example:
 $ ./shellby
 $ alias show=ls
 $ show
-AUTHORS            builtins_help_2.c  errors.c         linkedlist.c        shell.h       test
-README.md          env_builtins.c     getline.c        locate.c            shellby
-alias_builtins.c   environ.c          helper.c         main.c              split.c
-builtin.c          err_msgs1.c        helpers_2.c      man_1_simple_shell  str_funcs1.c
-builtins_help_1.c  err_msgs2.c        input_helpers.c  proc_file_comm.c    str_funcs2.c
+builtins_help_2.c      errors.c          linked_list.c        shell.h           README.md
+environ_builtins.c     _getline.c        _locate.c            builtins.c        _split.c
+aliases_builtins.c     _env.c            _helper.c            _main.c                 
+error_msg1.c           error_msg2.c      string_funcs1.c      string_funcs2.c
+builtins_help_1.c      input_help.c      proc_file.c     helps_2.c
 ```
 
 #### exit
