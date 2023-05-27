@@ -9,7 +9,7 @@ void free_list(lists_t *head);
  * add_aliases_end - Adds a node to the end of a aliases_t linked list.
  * @head: A pointer to the head of the lists_t list.
  * @name: The name of the new alias to be added.
- * @value: The value of the new alias to be added.
+ * @value: The value of a new alias to be added.
  *
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the new node.
