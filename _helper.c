@@ -8,7 +8,7 @@ void var_replace(char **args, int *exe_ret);
 /**
  * free_arg - Frees up memory taken by args.
  * @args: A null-terminated double pointer containing commands/arguments.
- * @front: A double pointer to the beginning of args.
+ * @front: A pointer of  pointer to the beginning of args.
  */
 void free_arg(char **args, char **front)
 {
